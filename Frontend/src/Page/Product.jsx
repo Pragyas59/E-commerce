@@ -7,6 +7,7 @@ import DescriptionBox from '../Component/DescriptionBox/DescriptionBox';
 import RelatedProduct from '../Component/RelatedProduct/RelatedProduct';
 
 
+
  const Product = () => {
   const {all_product}=useContext(ShopContext);
   const{productId}=useParams();
@@ -17,6 +18,7 @@ import RelatedProduct from '../Component/RelatedProduct/RelatedProduct';
       <ProductDisplay product={product}/>
       <DescriptionBox/>
       <RelatedProduct/>
+      
     </div>
   )
 }
